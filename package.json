@@ -1,0 +1,18 @@
+{
+  "name": "grow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start-client-app": "cd client && yarn && yarn dev"
+  },
+  "devDependencies": {
+    "standard": "^17.0.0"
+  },
+  "dependencies": {
+    "eslint": "^8.31.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
